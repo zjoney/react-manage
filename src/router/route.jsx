@@ -19,9 +19,9 @@
 import React, {Component, PropTypes} from 'react'; // react核心
 import { Router, Route, Redirect, IndexRoute, browserHistory, hashHistory } from 'react-router'; // 创建route所需
 import Config from '../config/index';
-import layout from '../component/layout/layout'; // 布局界面
+import layout from '../component/layout/layout'; // 
 
-import login from '../containers/login/login'; // 登录界面
+import login from '../containers/login/login'; // 
 
 /**
  * (路由根目录组件，显示当前符合条件的组件)
