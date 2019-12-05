@@ -39,6 +39,8 @@ app.get('*', function(req, res) {
 
 
 var port = process.env.PORT || 8082;
+// var port = process.env.PORT || 8083;
+// var port = process.env.PORT || 8084;
 
 /* 启动服务 */
 app.listen(port, 'localhost', function() {
