@@ -3,7 +3,6 @@ var express = require('express');
 var opn = require('opn');
 var config = require('./webpack.config.dev');
 var proxyMiddleware = require('http-proxy-middleware');
-
 var app = express();
 var compiler = webpack(config);
 
